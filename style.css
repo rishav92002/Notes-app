@@ -1,0 +1,40 @@
+
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+.notes{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.tools{
+    display: flex;
+    background-color: #cbef8c;
+    padding: 0.5rem;
+    justify-content: flex-end;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.notes .tools button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+
